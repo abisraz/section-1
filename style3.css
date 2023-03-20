@@ -1,0 +1,12 @@
+.button {
+    background-color: rgb(40, 87, 148);
+    border-color:antiquewhite;
+    color: antiquewhite;
+     padding: 13px 100px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size:20px;
+    border-radius: 15px;
+  }
+  

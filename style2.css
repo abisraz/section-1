@@ -1,0 +1,11 @@
+.button {
+    background-color: mediumturquoise;
+    border-color:antiquewhite;
+    color: antiquewhite;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size:20px;
+    border-radius: 15px;
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+        .box1 {
+
+            border: 2px solid red;
+        }
+
+        .parent {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 50vh;
+
+        }
+
+        .parent2 {
+            display: grid;
+            justify-content: space-evenly;
+            /* grid-template-columns:1fr 2fr 1fr; */
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+
+
+        <div class="box1">
+            <h1>column1</h1>
+        </div>
+
+
+        <div class="box1">
+            <h1>column2</h1>
+        </div>
+
+
+        <div class="box1">
+            <h1>column3</h1>
+        </div>
+    </div>
+
+    <div class="parent2">
+        <div class="box1">
+            <h1>column1</h1>
+        </div>
+
+        <div class="box1">
+            <h1>column2</h1>
+        </div>
+
+        <div class="box1">
+            <h1>column3</h1>
+
+        </div>
+        <div class="box1">
+            <h1>column4</h1>
+        </div>
+
+        <div class="box1">
+            <h1>column5</h1>
+        </div>
+
+        <div class="box1">
+            <h1>column6</h1>
+        </div>
+</body>
+
+</html>
